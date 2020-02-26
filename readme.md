@@ -20,6 +20,6 @@ The schematics as well as the PCB design are available here: https://easyeda.com
   <img width="460" src="/images/image1.png">
 </p>
 As you can see there are more things to this board than what was first explained, the additional functional modules are:
-* A female header for connecting a TFT LCD SPI display (not yet implemented in code)
-* Two female headers for connected 7seg modules that are controlled with TM1637
-* MAX3232 comunication iC for communicating with the heater-controller module
+*A female header for connecting a TFT LCD SPI display (not yet implemented in code)
+*Two female headers for connected 7seg modules that are controlled with TM1637
+*MAX3232 comunication iC for communicating with the heater-controller module
