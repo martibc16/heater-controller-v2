@@ -30,7 +30,7 @@ As you can see there are more things to this board than what was first explained
 
 As this module was going to be located on the living room a case was needed to house the PCB and the PSU. Fusion360 was used for this purpose:
 <p align="center">
-  <img width="460" src="/images/image2.jpg">
+  <img width="460" src="/images/image2.png">
 </p>
 
 And this is the result:
