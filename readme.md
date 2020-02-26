@@ -43,5 +43,5 @@ The module sends all the information to a RaspberryPi running Node-Red via MQTT.
   <img width="460" src="/images/image4.png">
 </p>
 <p align="center">
-  <img width="460" src="/images/image5.png">
+  <img width="750" src="/images/image5.png">
 </p>
