@@ -13,4 +13,4 @@ In this case the project is split into two main components:
 
 
 
-<b>Controller<\b>
+<b>Controller</b>
