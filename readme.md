@@ -13,7 +13,7 @@ In this case the project is split into two main components:
 
 
 
-## Controller
+## sensor/comunication module
 The schematics as well as the PCB design are available here: https://easyeda.com/603mbastida/termoino
 
 <p align="center">
@@ -36,4 +36,12 @@ As this module was going to be located on the living room a case was needed to h
 And this is the result:
 <p align="center">
   <img width="460" src="/images/image3.jpg">
+</p>
+
+The module sends all the information to a RaspberryPi running Node-Red via MQTT. The main page to control the ambient temperature, DHW water temperature and monitor the system in general looks like this:
+<p align="center">
+  <img width="460" src="/images/image4.png">
+</p>
+<p align="center">
+  <img width="460" src="/images/image5.png">
 </p>
