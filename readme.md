@@ -24,3 +24,14 @@ As you can see there are more things to this board than what was first explained
 * A female header for connecting a TFT LCD SPI display (not yet implemented in code)
 * Two female headers for connected 7seg modules that are controlled with TM1637
 * MAX3232 comunication iC for communicating with the heater-controller module
+
+
+In this case the project is split into two main components:
+* A controller: that sits on the gas heater room and does the same function as heater_controller project except that:
+	* It lacks (or doesn't need) an RTC
+	* It has two RS232 lines (based on MAX3232 iC)
+	* It lacks a screen and buttons
+* A sensor/comunication module located on the dinning room. This module acomplishes several functions:
+	* Sense the ambient temperature
+	* Control when to activate the heating, DHW etc.
+	* Send and recieve all the information via MQTT and a GSM module
