@@ -5,7 +5,7 @@ In this case the project is split into two main components:
 	* It lacks (or doesn't need) an RTC
 	* It has two RS232 lines (based on MAX3232 iC)
 	* It lacks a screen and buttons
-* A sensor/comunication module located on the dinning room. This module acomplishes several functions:
+* A sensor/comunication module located on the living room. This module acomplishes several functions:
 	* Sense the ambient temperature
 	* Control when to activate the heating, DHW etc.
 	* Send and recieve all the information via MQTT and a GSM module
@@ -21,18 +21,19 @@ The schematics as well as the PCB design are available here: https://easyeda.com
 </p>
 
 As you can see there are more things to this board than what was first explained, the additional functional modules are:
-* A controller: that sits on the gas heater room and does the same function as heater_controller project except that:
 * A female header for connecting a TFT LCD SPI display (not yet implemented in code)
 * Two female headers for connected 7seg modules that are controlled with TM1637
 * MAX3232 comunication iC for communicating with the heater-controller module
+* iC related to the SIM808 GSM module:
+	* An LDO for converting 5v to 4,2V
+	* Buffers
 
+As this module was going to be located on the living room a case was needed to house the PCB and the PSU. Fusion360 was used for this purpose:
+<p align="center">
+  <img width="460" src="/images/image2.jpg">
+</p>
 
-In this case the project is split into two main components:
-* A controller: that sits on the gas heater room and does the same function as heater_controller project except that:
-	* It lacks (or doesn't need) an RTC
-	* It has two RS232 lines (based on MAX3232 iC)
-	* It lacks a screen and buttons
-* A sensor/comunication module located on the dinning room. This module acomplishes several functions:
-	* Sense the ambient temperature
-	* Control when to activate the heating, DHW etc.
-	* Send and recieve all the information via MQTT and a GSM module
+And this is the result:
+<p align="center">
+  <img width="460" src="/images/image3.jpg">
+</p>
