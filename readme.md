@@ -53,10 +53,10 @@ As explained before the major change in this module is the addition of a MAX3232
 The 3.81 mm plugable headers have been replaced by 2.54 mm screw terminals due to availability motives.
 
 <p align="center">
-  <img width="750" src="/images/image6.png">
+  <img width="460" src="/images/image6.png">
 </p>
 
-asdf
+
 
 
 
