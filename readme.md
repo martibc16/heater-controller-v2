@@ -48,7 +48,7 @@ The module sends all the information to a RaspberryPi running Node-Red via MQTT.
 
 ## Controller
 
-As explained before the major change in this module is the addition of a MAX3232 RS232 comunicatión IC. 
+As explained before the major change in this module is the addition of a MAX3232 RS232 comunication IC. 
 
 The 3.81 mm plugable headers have been replaced by 2.54 mm screw terminals due to availability motives.
 
@@ -56,6 +56,8 @@ The 3.81 mm plugable headers have been replaced by 2.54 mm screw terminals due t
   <img width="460" src="/images/image6.png">
 </p>
 
+
+The code was developed using Visual Studio Code with PlatformIO plugging to develop the code using the Arduino enviorment.
 
 
 
