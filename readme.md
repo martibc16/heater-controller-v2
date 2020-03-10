@@ -56,7 +56,7 @@ The 3.81 mm plugable headers have been replaced by 2.54 mm screw terminals due t
   <img width="750" src="/images/image6.png">
 </p>
 
-
+asdf
 
 
 
